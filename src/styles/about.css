@@ -1,0 +1,83 @@
+
+/* About page */
+.about-container{
+    padding: 0 10rem 0 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 65vh;
+}
+.about-container h1{
+    font-size: 3rem;
+}
+  .about-container p{
+    font-size: 0.8rem;
+}
+
+.about-stuff .stuff-one{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--Color);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: var(--innerColor);
+    margin-bottom: 1rem;
+}
+.about-container h2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.about-stuff .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-stuff .top a{
+  color: var(--innerColor);
+}
+.aboutstuff p{
+    padding: 1rem;
+}
+.about-stuff button{
+    background: none;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    width: 10rem;
+}
+.about-stuff button:hover{
+    background-color: var(--innerColor);
+    color: var(--Color);
+}
+
+.tech-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.about-container .about-icons img{
+    width: 5rem;
+}
+
+/* responsiveness */
+
+@media (max-width: 768px) {
+    .about-container{
+        margin-bottom: 80rem;
+    }
+    .about-stuff .top{
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        gap: 1rem;
+    }
+}
