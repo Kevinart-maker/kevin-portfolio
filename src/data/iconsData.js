@@ -5,38 +5,38 @@ export default[
     },
     {
         id: 2,
-        icons: '/public/figma.png'
+        icons: '/figma.png'
     },
     {
         id: 3,
-        icons: '/public/git.png'
+        icons: '/git.png'
     },
     {
         id: 4,
-        icons: '/public/html.png'
+        icons: '/html.png'
     },
     {
         id: 5,
-        icons: '/public/js.png'
+        icons: '/js.png'
     },
     {
         id: 6,
-        icons: '/public/nextjs.png'
+        icons: '/nextjs.png'
     },
     {
         id: 7,
-        icons: '/public/node.png'
+        icons: '/node.png'
     },
     {
         id: 8,
-        icons: '/public/react.png'
+        icons: '/react.png'
     },
     {
         id: 9,
-        icons: '/public/tailwind.png'
+        icons: '/tailwind.png'
     },
     {
         id: 10,
-        icons: '/public/ts.png'
+        icons: '/ts.png'
     }
 ]
