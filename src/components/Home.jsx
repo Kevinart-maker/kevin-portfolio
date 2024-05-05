@@ -33,6 +33,9 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/kevin-odeyemi-06686524a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                         <i className='fa-brands fa-linkedin'></i>
                     </a>
+                    <a href="https://www.behance.net/kevinart2">
+                        <i className="fa-brands fa-square-behance"></i>
+                    </a>
                 </div>
         </div>
     );
