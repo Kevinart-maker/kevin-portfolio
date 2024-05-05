@@ -73,7 +73,7 @@
 }
 
 .show-preview{
-    display: none;
+    right: -1000px;
 }
 
 
