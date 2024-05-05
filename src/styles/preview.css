@@ -1,0 +1,86 @@
+.preview-card{
+    position: fixed;
+    right: 0;
+    background-color: var(--Color);
+    color: var(--innerColor);
+    padding: 2rem;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow: scroll;
+}
+
+.preview-card img{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.preview-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.preview-nav h2{
+    font-size: 1rem;
+}
+.preview-card .line{
+    width: 100%;
+    height: 1px;
+    background-color: #aca7a7;
+}
+
+.preview-card .preview-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.preview-card a{
+    text-decoration: none;
+    color: var(--innerColor);
+    opacity: 0.6;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.preview-card a:hover{
+    opacity: 1;
+}
+.preview-card .last-guy{
+    margin-bottom: 5rem;
+}
+.open-proj{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--innerColor);
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.open-proj a{
+    color: var(--Color);
+    font-size: 1rem;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.show-preview{
+    display: none;
+}
+
+
+/* responsiveness */
+
+@media (max-width: 700px) {
+    .preview-card{
+        width: 100%;
+    }
+}

@@ -1,10 +1,10 @@
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Project from './Project.jsx';
+import { useState } from 'react';
 
 
 
-const Projects = () => {
-    
+const Projects = () => {    
     
     return ( 
         <div className="projects-container">
