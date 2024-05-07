@@ -1,5 +1,20 @@
-.preview-card{
+.master-preview{
+    background-color: aqua;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+
+.preview-card{
+    position: absolute;
     right: 0;
     background-color: var(--Color);
     color: var(--innerColor);
@@ -71,15 +86,22 @@
     align-items: center;
     gap: 1rem;
 }
+.open-proj:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+}
 
 .show-preview{
-    right: -1000px;
+    right: -5000px;
+    transition: 0.3s ease all;
 }
 
 
 /* responsiveness */
 
 @media (max-width: 700px) {
+    .master-preview{
+        background: none;
+    }
     .preview-card{
         width: 100%;
     }

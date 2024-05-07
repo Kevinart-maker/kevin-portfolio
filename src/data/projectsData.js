@@ -188,7 +188,7 @@ export default[
         technology: techs,
         image: '/project8.png',
         about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
-        url: '',
+        url: 'https://niveksti-helpdesk.vercel.app/',
         git: 'https://github.com/Kevinart-maker/helpdesk'
     }
 ]

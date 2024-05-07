@@ -37,6 +37,7 @@ const Project = () => {
                     </div>
     
                     {project.id === selectedId && (
+                    <div className={`master-preview ${classShow}`}>
                     <div className={`preview-card ${classShow}`}>
                         <div className={`preview-nav`} onClick={secondHandleClick}>
                             <i class="fa-solid fa-angle-left"></i>
@@ -71,6 +72,7 @@ const Project = () => {
                                 </a>
                             </div>
                         </div>
+                    </div>
                     </div>
                 )}
                 </div>

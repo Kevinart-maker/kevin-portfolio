@@ -56,10 +56,7 @@
 
 .project-box .bottom{
     position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     background: linear-gradient(to bottom, rgba(107, 105, 105, 0.014), #000000);
-    /* backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(5px); */
     z-index: 100;
     bottom: -1000px;
     right: 0;
@@ -89,7 +86,9 @@
 .project-box .techs .tech-box{
     background-color:#7e7b7b ;
     padding: 0.4rem;
-    height: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
     border-radius: 0.2rem;
     z-index: 112;
     font-size: 0.7rem;
