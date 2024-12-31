@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    height: 65vh;
+    /* height: 65vh; */
 }
 .about-container h1{
     font-size: 3rem;
@@ -59,21 +59,49 @@
 }
 .icons-container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1rem;
+    height: 10rem;
+    overflow: hidden;
+    overflow-x: scroll;
 }
+.icons-container::-webkit-scrollbar {
+    height: 2px; /* Height of the horizontal scrollbar */
+    background: #f0f0f0; /* Scrollbar background color */
+    border-radius: 10px; /* Rounded scrollbar */
+  }
+  
+  .icons-container::-webkit-scrollbar-thumb {
+    background: #000000; /* Thumb color */
+  }
+  
+  .icons-container::-webkit-scrollbar-thumb:hover {
+    background: #000000; /* Slightly darker color on hover */
+  }
 .about-container .about-icons img{
     width: 5rem;
+}
+.about-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: var(--innerColor);
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+}
+.about-icons:hover{
+    border-radius: 0;
+    transform: scale(1.2);
+    transition: transform 01s ease;
+    transform: rotate(360deg);
 }
 
 /* responsiveness */
 
 @media (max-width: 768px) {
-    .about-container{
-        margin-bottom: 80rem;
-    }
     .about-stuff .top{
         display: flex;
         flex-direction: column;

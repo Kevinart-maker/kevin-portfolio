@@ -25,19 +25,31 @@ const memetechs = [
 
 const airtechs = [
     {
-        tecnologies: 'React'
+        tecnologies: 'React.js'
     },
     {
         tecnologies: 'CSS'
     },
     {
-        tecnologies: 'Javascript'
+        tecnologies: 'Node.js'
+    },
+    {
+        tecnologies: 'Mongodb'
+    }
+    ,{
+        tecnologies: 'Express.js'
+    }
+    ,{
+        tecnologies: 'Firebase'
     }
 ]
 
 const snaptechs = [
     {
-        tecnologies: 'HTML'
+        tecnologies: 'React.js'
+    },
+    {
+        tecnologies: 'Firebase'
     },
     {
         tecnologies: 'CSS'
@@ -107,6 +119,33 @@ const techs = [
     }
 ]
 
+const tesmi = [
+    {
+        tecnologies: 'React.js'
+    },
+    {
+        tecnologies: 'CSS'
+    },
+    {
+        tecnologies: 'Tailwind'
+    },
+    {
+        tecnologies: 'Node.js'
+    },
+    {
+        tecnologies: 'MongoDB'
+    },
+    {
+        tecnologies: 'Mongoose'
+    },
+    {
+        tecnologies: 'Firebase'
+    },
+    {
+        tecnologies: 'Paystack'
+    }
+]
+
 
 
 
@@ -133,23 +172,21 @@ export default[
     },
     {
         id: 3,
-        name: 'AirBnB',
-        description: '',
+        name: 'CLABED Autos',
+        description: 'E-commerce site for cars',
         technology: airtechs,
         image: '/project4.png',
-        about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
-        url: 'https://airbnbplus.netlify.app/',
-        git: 'https://github.com/Kevinart-maker/airbnb-clone'
+        about: 'E commerce site for a car dealership company, where you can buy and sell cars. It is built with the latest technologies',
+        url: 'https://clabed-frontend.vercel.app/',
     },
     {
         id: 4,
-        name: 'Snap',
-        description: '',
+        name: 'Swift Aid',
+        description: 'Protect your rights',
         technology: snaptechs,
         image: '/project3.png',
-        about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
-        url: 'https://responsive-intro-section.netlify.app/',
-        git: 'https://github.com/Kevinart-maker/responsive-intro-section'
+        about: 'Protect your rights and find the right lawyer with swift aid',
+        url: 'https://swift-aider.vercel.app/',
     },
     {
         id: 5,
@@ -190,5 +227,14 @@ export default[
         about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
         url: 'https://niveksti-helpdesk.vercel.app/',
         git: 'https://github.com/Kevinart-maker/helpdesk'
+    },
+    {
+        id: 9,
+        name: 'Tesmi',
+        description: 'E-commerce site for clothes',
+        technology: tesmi,
+        image: '/project10.png',
+        about: 'Buy quality clothes with ease on Tesmi e-commerce site',
+        url: 'https://e-tesmi.vercel.app/',
     }
 ]

@@ -8,6 +8,9 @@ const About = () => {
         return(
             <div className="about-icons" key={icon.key}>
                 <img src={icon.icons} alt="icons" />
+                <div className="text">
+                    {icon.name}
+                </div>
             </div>
         )
     })
@@ -23,7 +26,7 @@ const About = () => {
                     <a href={items.link}>{items.subSubject}</a>
                 </div>
                 <p>{items.content}</p>
-                <button onClick={items.button}>Download CV</button>
+                {items.button && (<button onClick={items.button}>Download CV</button>)}
             </div>
         )
 })

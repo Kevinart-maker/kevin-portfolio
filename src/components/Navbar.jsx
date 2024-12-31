@@ -10,6 +10,7 @@ const Navbar = () => {
     }
 
     const displayed = display ? 'visible' : 'hidden'
+    const seeNav = display ? 'see-nav' : ''
     
     return (
         <nav>
@@ -20,7 +21,7 @@ const Navbar = () => {
                 <li><NavLink to='/contact'>Contact</NavLink></li>
                 {/* <i className='fa-solid fa-circle-half-stroke'></i> */}
             </div>
-            <div className='nav-ham' onClick={handleClick}>
+            <div className={`nav-ham ${seeNav}`} onClick={handleClick}>
                 <div className='ham-lines first'></div>
                 <div className='ham-lines'></div>
                 <div className='ham-lines'></div>

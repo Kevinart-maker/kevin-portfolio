@@ -62,8 +62,12 @@ const Project = () => {
                             </div>
                             <h3>Website</h3>
                             <a href={project.url}>{project.url}</a>
-                            <h3>Github</h3>
-                            <a className="last-guy" href={project.git}>{project.git}</a>
+                            {project.git && (
+                                <span>
+                                    <h3>Github</h3>
+                                    <a className="last-guy" href={project.git}>{project.git}</a>
+                                </span>
+                            )}
 
                             <div className="open-proj">
                                 <a href={project.url}>
