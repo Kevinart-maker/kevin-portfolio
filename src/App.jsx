@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './styles/glitch.css'
 import './styles/home.css'
 import './styles/about.css'
@@ -15,6 +15,24 @@ import Projects from './components/Projects'
 import CircleFollowMouse from './components/CircleFollowMouse'
 
 function App() {
+  
+  useEffect(() => {
+    // Create a script element
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.id = "hs-script-loader";
+    script.async = true;
+    script.defer = true;
+    script.src = "//js.hs-scripts.com/48728885.js";
+
+    // Append the script to the body
+    document.body.appendChild(script);
+
+    // Cleanup function to remove script when the component unmounts
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);  
 
   return (
     <>
