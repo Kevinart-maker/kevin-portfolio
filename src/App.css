@@ -19,6 +19,7 @@
   --linkColor: #020a13d3;
   --lineColor: #020a13f6;
   --logoTheme: invert(1) brightness(0);
+  --nextTheme: invert(1) brightness(100);
   --bodyLines: linear-gradient(transparent 99%, rgba(20, 19, 19, 0.05) 99%) 0 0 / 100px 100px,
   linear-gradient(90deg, transparent 99%, rgba(0, 0, 0, 0.05) 99%) 0 0 / 100px 100px;
 }
