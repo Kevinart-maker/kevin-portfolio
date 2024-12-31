@@ -1,7 +1,7 @@
 
 .glitch {
     position: relative;
-    color: white;
+    color: var(--Color);
     font-size: 2.5em;
     letter-spacing: 0.5em;
     /* Animation provies a slight random skew. Check bottom of doc

@@ -42,7 +42,7 @@
 }
 .about-stuff button{
     background: none;
-    border: 1px solid black;
+    border: 1px solid var(--innerColor);
     border-radius: 0.6rem;
     padding: 1rem;
     width: 10rem;
@@ -69,16 +69,16 @@
 }
 .icons-container::-webkit-scrollbar {
     height: 2px; /* Height of the horizontal scrollbar */
-    background: #f0f0f0; /* Scrollbar background color */
+    background: var(--linkColor); /* Scrollbar background color */
     border-radius: 10px; /* Rounded scrollbar */
   }
   
   .icons-container::-webkit-scrollbar-thumb {
-    background: #000000; /* Thumb color */
+    background: var(--innerColor); /* Thumb color */
   }
   
   .icons-container::-webkit-scrollbar-thumb:hover {
-    background: #000000; /* Slightly darker color on hover */
+    background: var(--innerColor); /* Slightly darker color on hover */
   }
 .about-container .about-icons img{
     width: 5rem;
@@ -87,7 +87,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: var(--Color);
     color: var(--innerColor);
     padding: 0.6rem;
     border-radius: 0.6rem;
