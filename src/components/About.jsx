@@ -7,7 +7,7 @@ const About = () => {
     const iconData = iconsData.map(icon => {
         return(
             <div className="about-icons" key={icon.key}>
-                <img src={icon.icons} alt="icons" />
+                <img src={icon.icons} className={icon.name === 'Next.js' ? 'filter' : ''} alt="icons" />
                 <div className="text">
                     {icon.name}
                 </div>

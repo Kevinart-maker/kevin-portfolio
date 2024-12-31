@@ -5,13 +5,22 @@
   --innerColor: #000000;
   --primaryColor: #020a13;
   --linkColor: #ffffff93;
+  --lineColor: #aca7a7;
   --Image: url(/src/assets/background.jpg);
+  --bodyLines: linear-gradient(transparent 99%, rgba(255, 255, 255, 0.05) 99%) 0 0 / 100px 100px,
+  linear-gradient(90deg, transparent 99%, rgba(255, 255, 255, 0.05) 99%) 0 0 / 100px 100px;
 }
 [data-theme='dark']{
   --Image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
   --backColor: #000000;
   --Color: #000000;
   --innerColor: #fff;
+  --primaryColor: #e1e4e7;
+  --linkColor: #020a13d3;
+  --lineColor: #020a13f6;
+  --logoTheme: invert(1) brightness(0);
+  --bodyLines: linear-gradient(transparent 99%, rgba(20, 19, 19, 0.05) 99%) 0 0 / 100px 100px,
+  linear-gradient(90deg, transparent 99%, rgba(0, 0, 0, 0.05) 99%) 0 0 / 100px 100px;
 }
 
 html{
@@ -64,9 +73,7 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(transparent 98%, rgba(255, 255, 255, 0.05) 99%) 0 0 / 100px 100px,
-              linear-gradient(90deg, transparent 98%, rgba(255, 255, 255, 0.05) 99%) 0 0 / 100px 100px;
-  z-index: 2;
+  background: var(--bodyLines);
   pointer-events: none; /* Prevents interaction */
 }
 
@@ -92,6 +99,9 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5rem;
+}
+nav .logo{
+  filter: var(--logoTheme);
 }
 .nav-lists{
   list-style: none;

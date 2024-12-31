@@ -46,6 +46,7 @@
     border-radius: 0.6rem;
     padding: 1rem;
     width: 10rem;
+    color: var(--innerColor);
 }
 .about-stuff button:hover{
     background-color: var(--innerColor);
@@ -97,6 +98,10 @@
     transform: scale(1.2);
     transition: transform 01s ease;
     transform: rotate(360deg);
+}
+
+.filter{
+    filter: var(--nextTheme);
 }
 
 /* responsiveness */
