@@ -111,6 +111,9 @@ nav .logo{
   gap: 2rem;
   cursor: pointer;
 }
+.nav-lists li{
+  color: var(--Color);
+}
 .nav-lists a{
   text-decoration: none;
   opacity: 0.6;

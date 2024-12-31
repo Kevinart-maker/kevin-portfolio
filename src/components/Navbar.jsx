@@ -33,7 +33,7 @@ const Navbar = () => {
                 <li><NavLink to='/about'>About</NavLink></li>
                 <li><NavLink to='/projects'>Projects</NavLink></li>
                 <li><NavLink to='/contact'>Contact</NavLink></li>
-                <i className='fa-solid fa-circle-half-stroke' onClick={toggleTheme}></i>
+                <li><i className='fa-solid fa-circle-half-stroke' onClick={toggleTheme}></i></li>
             </div>
             <div className={`nav-ham ${seeNav}`} onClick={handleClick}>
                 <div className='ham-lines first'></div>
