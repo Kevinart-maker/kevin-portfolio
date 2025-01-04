@@ -33,12 +33,16 @@
     gap: 2rem;
     font-size: 1rem;
     padding-bottom: 5rem;
+    padding: 1rem;
   }
   .socials a{
     color: var(--Color);
     text-decoration: none;
   }
-  .socials i:hover{
+  .socials a i{
+    font-size: 1.2rem;
+  }
+  .socials a i:hover{
     transform: scale(1.4);
   }
   
@@ -52,13 +56,13 @@
     position: fixed;
     bottom: 0;
     right: 0; left: 0;
-    padding: 0.7rem;
+    padding: 1.3rem;
     background: rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
   }
-  .socials a{
+  .socials a i{
     font-size: 1.2rem;
   }
 }  
