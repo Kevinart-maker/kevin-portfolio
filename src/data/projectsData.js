@@ -235,6 +235,6 @@ export default[
         technology: tesmi,
         image: '/project10.png',
         about: 'Buy quality clothes with ease on Tesmi e-commerce site',
-        url: 'https://e-tesmi.vercel.app/',
+        url: 'https://tesmidesign.com/',
     }
 ]
