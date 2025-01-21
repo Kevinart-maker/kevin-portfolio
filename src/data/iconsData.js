@@ -1,52 +1,52 @@
 export default[
     {
         id: 1,
-        icons: '/css.png',
+        icons: '/css.webp',
         name: 'CSS',
     },
     {
         id: 2,
-        icons: '/figma.png',
+        icons: '/figma.webp',
         name: 'Figma',
     },
     {
         id: 3,
-        icons: '/git.png',
+        icons: '/git.webp',
         name: 'Git',
     },
     {
         id: 4,
-        icons: '/html.png',
+        icons: '/html.webp',
         name: 'HTML',
     },
     {
         id: 5,
-        icons: '/js.png',
+        icons: '/js.webp',
         name: 'JavaScript',
     },
     {
         id: 6,
-        icons: '/nextjs.png',
+        icons: '/nextjs.webp',
         name: 'Next.js',
     },
     {
         id: 7,
-        icons: '/node.png',
+        icons: '/node.webp',
         name: 'Node.js',
     },
     {
         id: 8,
-        icons: '/react.png',
+        icons: '/react.webp',
         name: 'React.js',
     },
     {
         id: 9,
-        icons: '/tailwind.png',
+        icons: '/tailwind.webp',
         name: 'Tailwind',
     },
     {
         id: 10,
-        icons: '/ts.png',
+        icons: '/ts.webp',
         name: 'TypeScript',
     }
 ]
