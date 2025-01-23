@@ -186,7 +186,7 @@ export default[
         technology: snaptechs,
         image: '/project3.webp',
         about: 'Protect your rights and find the right lawyer with swift aid',
-        url: 'https://swift-aider.vercel.app/',
+        url: 'https://swiftaiders.vercel.app/',
     },
     {
         id: 5,
