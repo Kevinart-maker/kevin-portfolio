@@ -151,6 +151,15 @@ const tesmi = [
 
 export default[
     {
+        id: 11,
+        name: 'MonadWhisper',
+        description: 'Discover existing and new projects.',
+        technology: airtechs,
+        image: '/project11.webp',
+        about: "Discover existing and new projects building on Monad. Follow up any of interest, and be part o a community that's shaping the future of the fastest EVM",
+        url: 'https://monadwhisper.xyz',
+    },
+    {
         id: 1,
         name: 'SHOP.NG',
         description: 'Ecommerce site for clothes',
