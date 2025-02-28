@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="home-container">
                 <div id="wrapper">
-                    <h1 className='glitch' data-text="I`M KEVIN ODEYEMI">I`M KEVIN ODEYEMI</h1>
+                    <h1 className='glitch' data-text="I'M KEVIN ODEYEMI">I'M KEVIN ODEYEMI</h1>
                 </div>
                 <p className='text'>
                     Your friendly neighborhood frontend developer, ReactJS and JavaScript engineer. I spend my days (and often nights) painting the Internet canvas with <strong>PROJECTS</strong> and lines of code, turning zeroes and ones into immersive, interactive experiences,
