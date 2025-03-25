@@ -29,7 +29,7 @@ const Navbar = () => {
     return (
         <nav>
             <NavLink to='/' className='logo'><img src={logo} alt="logo" className={'logo'}/></NavLink>
-            <div className={`nav-lists ${displayed}`}>
+            <div onClick={handleClick} className={`nav-lists ${displayed}`}>
                 <li><NavLink to='/about'>About</NavLink></li>
                 <li><NavLink to='/projects'>Projects</NavLink></li>
                 <li><NavLink to='/contact'>Contact</NavLink></li>

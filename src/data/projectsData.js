@@ -160,6 +160,53 @@ export default[
         url: 'https://monadwhisper.xyz',
     },
     {
+        id: 3,
+        name: 'CLABED Autos',
+        description: 'E-commerce site for cars',
+        technology: airtechs,
+        image: '/project4.webp',
+        about: 'E commerce site for a car dealership company, where you can buy and sell cars. It is built with the latest technologies',
+        url: 'https://clabed-frontend.vercel.app/',
+    },
+    {
+        id: 4,
+        name: 'Swift Aid',
+        description: 'Protect your rights',
+        technology: snaptechs,
+        image: '/project3.webp',
+        about: 'Protect your rights and find the right lawyer with swift aid',
+        url: 'https://swiftaiders.vercel.app/',
+    },
+    {
+        id: 7,
+        name: 'Clabed Dashboard',
+        description: 'Admin page for invoices',
+        technology: clabedtechs,
+        image: '/project1.webp',
+        about: 'An admin dashboard built with nextjs and various other technologies, to check it out, use user@nextmail.com as email and 123456 as password',
+        url: 'https://next-dashboard-lovat-omega.vercel.app/',
+        git: 'https://github.com/Kevinart-maker/next-dashboard'
+    },
+    {
+        id: 9,
+        name: 'Tesmi',
+        description: 'E-commerce site for clothes',
+        technology: tesmi,
+        image: '/project10.webp',
+        about: 'Buy quality clothes with ease on Tesmi e-commerce site',
+        url: 'https://tesmidesign.com/',
+    },
+    {
+        id: 8,
+        name: 'Niveksti Helpdesk',
+        description: 'Ticket page to make complaints',
+        technology: techs,
+        image: '/project8.webp',
+        about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
+        url: 'https://niveksti-helpdesk.vercel.app/',
+        git: 'https://github.com/Kevinart-maker/helpdesk'
+    },
+    {
         id: 1,
         name: 'SHOP.NG',
         description: 'Ecommerce site for clothes',
@@ -178,24 +225,6 @@ export default[
         about: 'Meme Generator is a collection of amazingly organized memes for various parts of the interner for you acces and style.',
         url: 'https://generatingmeme.netlify.app/',
         git: 'https://github.com/Kevinart-maker/generate-meme'
-    },
-    {
-        id: 3,
-        name: 'CLABED Autos',
-        description: 'E-commerce site for cars',
-        technology: airtechs,
-        image: '/project4.webp',
-        about: 'E commerce site for a car dealership company, where you can buy and sell cars. It is built with the latest technologies',
-        url: 'https://clabed-frontend.vercel.app/',
-    },
-    {
-        id: 4,
-        name: 'Swift Aid',
-        description: 'Protect your rights',
-        technology: snaptechs,
-        image: '/project3.webp',
-        about: 'Protect your rights and find the right lawyer with swift aid',
-        url: 'https://swiftaiders.vercel.app/',
     },
     {
         id: 5,
@@ -217,33 +246,4 @@ export default[
         url: 'https://happle.netlify.app/',
         git: 'https://github.com/Kevinart-maker/happle_e-commerce_website'
     },
-    {
-        id: 7,
-        name: 'Clabed Dashboard',
-        description: 'Admin page for invoices',
-        technology: clabedtechs,
-        image: '/project1.webp',
-        about: 'An admin dashboard built with nextjs and various other technologies, to check it out, use user@nextmail.com as email and 123456 as password',
-        url: 'https://next-dashboard-lovat-omega.vercel.app/',
-        git: 'https://github.com/Kevinart-maker/next-dashboard'
-    },
-    {
-        id: 8,
-        name: 'Niveksti Helpdesk',
-        description: 'Ticket page to make complaints',
-        technology: techs,
-        image: '/project8.webp',
-        about: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium laborum molestias distinctio praesentium quam? Iusto amet unde animi, consequatur blanditiis cupiditate ipsum ullam libero enim, laudantium, quae fugiat praesentium!',
-        url: 'https://niveksti-helpdesk.vercel.app/',
-        git: 'https://github.com/Kevinart-maker/helpdesk'
-    },
-    {
-        id: 9,
-        name: 'Tesmi',
-        description: 'E-commerce site for clothes',
-        technology: tesmi,
-        image: '/project10.webp',
-        about: 'Buy quality clothes with ease on Tesmi e-commerce site',
-        url: 'https://tesmidesign.com/',
-    }
 ]

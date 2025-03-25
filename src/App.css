@@ -110,6 +110,7 @@ nav .logo{
   align-items: center;
   gap: 2rem;
   cursor: pointer;
+  z-index: 1000;
 }
 .nav-lists li{
   color: var(--Color);
@@ -159,7 +160,7 @@ nav .logo{
 
 @media (max-width: 700px) {
   nav .logo{
-    width: 2.5rem;
+    width: 3rem;
   }
   .cicles{
     opacity: 0;
@@ -170,6 +171,7 @@ nav .logo{
   }
   nav{
     position: relative;
+    /* padding: 0 2rem; */
   }
   .nav-lists{
     position: fixed;
@@ -185,9 +187,9 @@ nav .logo{
     top: 0;
     right: 0;
     bottom: 0;
-    width: 40%;
+    width: 100%;
     justify-content: center;
-    z-index: 100;
+    z-index: 1000;
   }
   .nav-lists li, .nav-lists a{color: #fff}
   .nav-ham{
