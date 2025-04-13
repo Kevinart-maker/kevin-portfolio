@@ -1,6 +1,7 @@
 import { Routes, Route, NavLink } from 'react-router-dom'
 import Project from './Project.jsx';
 import { useState } from 'react';
+import Seo from "./Seo";
 
 
 
@@ -8,6 +9,28 @@ const Projects = () => {
     
     return ( 
         <div className="projects-container">
+            <Seo
+                title = "Kevin Odeyemi | React Projects"
+                description ="Explore the projects created by Kevin Odeyemi, a React frontend developer. View the portfolio of modern, responsive web and mobile applications."
+                canonical = "https://kevin.clabedautos.com/projects"
+                schemaMarkup={{
+                    '@context': 'https://schema.org',
+                    '@type': 'WebSite',
+                    name: 'Projects | Kevin Odeyemi',
+                    url: 'https://kevin.clabedautos.com/',
+                    jobTitle: 'Frontend Developer',
+                    sameAs: [
+                    'https://github.com/kevinart-maker',      // Replace with your actual profiles
+                    'https://linkedin.com/in/odeyemikevin',
+                    'https://twitter.com/odeyemikevin',
+                    ],
+                    worksFor: {
+                    '@type': 'Organization',
+                    name: 'Freelance',
+                    },
+                }}
+            />
+            
             <h1 className="page-heading">Projects.</h1>
 
             <div className="projects-nav">

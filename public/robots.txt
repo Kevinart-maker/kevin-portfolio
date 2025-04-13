@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Disallow: /private
+
+Sitemap: https://kevin.clabedautos.com/sitemap.xml

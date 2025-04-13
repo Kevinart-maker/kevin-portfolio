@@ -13,32 +13,16 @@ import Contact from './components/Contact'
 import About from './components/About'
 import Projects from './components/Projects'
 import CircleFollowMouse from './components/CircleFollowMouse'
+import Call from './components/Call'
 
 function App() {
-  
-  useEffect(() => {
-    // Create a script element
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.id = "hs-script-loader";
-    script.async = true;
-    script.defer = true;
-    script.src = "//js.hs-scripts.com/48728885.js";
-
-    // Append the script to the body
-    document.body.appendChild(script);
-
-    // Cleanup function to remove script when the component unmounts
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);  
 
   return (
     <>
       <div className="container">
         <CircleFollowMouse />
         <Navbar />
+        <Call />
         <Routes>
           <Route index element={<Home />} />
           <Route path='contact' element={<Contact />} />

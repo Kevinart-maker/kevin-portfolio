@@ -1,5 +1,6 @@
 import projectsData from "../data/projectsData.js";
 import { useState } from "react";
+import Seo from "./Seo";
 
 const Project = () => {
     const [show, setShow] = useState(false)
@@ -16,6 +17,28 @@ const Project = () => {
 
     return (
         <div className="project-outer-box">
+            <Seo
+                title = "Kevin Odeyemi | React Projects"
+                description ="Explore the projects created by Kevin Odeyemi, a React frontend developer. View the portfolio of modern, responsive web and mobile applications."
+                canonical = "https://kevin.clabedautos.com/projects"
+                schemaMarkup={{
+                    '@context': 'https://schema.org',
+                    '@type': 'WebSite',
+                    name: 'Projects | Kevin Odeyemi',
+                    url: 'https://kevin.clabedautos.com/',
+                    jobTitle: 'Frontend Developer',
+                    sameAs: [
+                    'https://github.com/kevinart-maker',      // Replace with your actual profiles
+                    'https://linkedin.com/in/odeyemikevin',
+                    'https://twitter.com/odeyemikevin',
+                    ],
+                    worksFor: {
+                    '@type': 'Organization',
+                    name: 'Freelance',
+                    },
+                }}
+            />
+            
             {
                 projectsData.map((project) => (
                     <div className="project-box" key={project.id} onClick={() => handleClick(project.id)}>

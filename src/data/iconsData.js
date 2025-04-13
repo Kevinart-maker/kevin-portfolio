@@ -1,5 +1,30 @@
 export default[
     {
+        id: 10,
+        icons: '/ts.webp',
+        name: 'TypeScript',
+    },
+    {
+        id: 6,
+        icons: '/nextjs.webp',
+        name: 'Next.js',
+    },
+    {
+        id: 8,
+        icons: '/react.webp',
+        name: 'React.js',
+    },
+    {
+        id: 9,
+        icons: '/tailwind.webp',
+        name: 'Tailwind',
+    },
+    {
+        id: 7,
+        icons: '/node.webp',
+        name: 'Node.js',
+    },
+    {
         id: 1,
         icons: '/css.webp',
         name: 'CSS',
@@ -24,29 +49,4 @@ export default[
         icons: '/js.webp',
         name: 'JavaScript',
     },
-    {
-        id: 6,
-        icons: '/nextjs.webp',
-        name: 'Next.js',
-    },
-    {
-        id: 7,
-        icons: '/node.webp',
-        name: 'Node.js',
-    },
-    {
-        id: 8,
-        icons: '/react.webp',
-        name: 'React.js',
-    },
-    {
-        id: 9,
-        icons: '/tailwind.webp',
-        name: 'Tailwind',
-    },
-    {
-        id: 10,
-        icons: '/ts.webp',
-        name: 'TypeScript',
-    }
 ]

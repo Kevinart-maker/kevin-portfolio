@@ -1,15 +1,41 @@
 import { useForm, ValidationError } from '@formspree/react';
 import { NavLink } from 'react-router-dom';
+import Seo from "./Seo";
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xwkgapwp");
     if (state.succeeded) {
         return <p>Thanks for contacting!</p>;
     }
-    
+
     
     return (
         <div className="contact">
+            <Seo
+                title = "Contact Kevin Odeyemi | React Frontend Developer"
+                description ="Get in touch with Kevin Odeyemi, a React frontend developer, to discuss potential projects, collaborations, or freelance opportunities."
+                canonical = "https://kevin.clabedautos.com/contact"
+                schemaMarkup={{
+                    '@context': 'https://schema.org',
+                    '@type': 'Person',
+                    name: 'Kevin Odeyemi',
+                    jobTitle: 'Frontend Developer',
+                    url: 'https://kevin.clabedautos.com',
+                    sameAs: [
+                      'https://github.com/kevinart-maker',
+                      'https://linkedin.com/in/odeyemikevin',
+                      'https://twitter.com/odeyemikevin',
+                    ],
+                    contactPoint: {
+                      '@type': 'ContactPoint',
+                      contactType: 'customer service',
+                      areaServed: 'Worldwide',
+                      availableLanguage: 'English',
+                    },
+                }}
+            />
+            
+            
             <h1 className='page-heading'>Contact.</h1>
             <p>Get in touch or shoot me an email directly on <strong>kevinodeyemi76@gmail.com</strong></p>
 

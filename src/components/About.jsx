@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import data from '/src/data/data'
 import iconsData from "../data/iconsData";
+import Seo from "./Seo";
 
 const About = () => {
 
@@ -17,7 +18,30 @@ const About = () => {
 
     const aboutData = data.map(items => {
         return(
-            <div className="stuff-one" key={items.id}>
+            <div className="stuff-one" key={items.id}>            
+            <Seo
+                title = "About Kevin Odeyemi | React Frontend Developer"
+                description ="Learn more about Kevin Odeyemi, a React frontend developer with expertise in modern web and app interfaces, clean UI/UX design, and scalable performance."
+                canonical = "https://kevin.clabedautos.com/about"
+                schemaMarkup={{
+                    '@context': 'https://schema.org',
+                    '@type': 'WebSite',
+                    name: 'Kevin Odeyemi',
+                    url: 'https://kevin.clabedautos.com/about',
+                    jobTitle: 'Frontend Developer',
+                    sameAs: [
+                    'https://github.com/kevinart-maker',      // Replace with your actual profiles
+                    'https://linkedin.com/in/odeyemikevin',
+                    'https://twitter.com/odeyemikevin',
+                    ],
+                    worksFor: {
+                    '@type': 'Organization',
+                    name: 'Freelance',
+                    },
+                }}
+            />
+
+                
                 <div className="top">
                     <h2>
                         {items.subject}
